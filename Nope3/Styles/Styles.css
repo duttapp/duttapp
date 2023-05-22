@@ -1,0 +1,135 @@
+
+
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  outline: none;
+
+}
+html{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+body {
+   
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     width: 500px;
+     height: 600px;
+     background-color: rgb(8, 0, 80);
+  }
+
+#Mydiv {
+  display: block;
+  width: 300px;
+  height: 500px;
+  text-align: center;
+  background-color: rgba(55, 0, 0, 0.2);
+  box-shadow: 0 0 8px 0 rgb(38, 32, 131);
+  
+  }
+
+#Welcome {
+    position: relative;
+    width: 100%;
+    height: 220px;
+    padding-left: 30px;
+    padding-top: 70px;
+    font-size: larger;
+    color: #aaa;
+    background: rgb(2, 2, 34);
+  }
+#Login-div {
+    position: relative;
+    top: 30px;
+
+  }
+
+#Username,#Password {
+  position: relative;
+  top: 0px;
+  left: 0px;
+  width: 220px;
+  padding:8px;
+  border: 2px solid #aaa;
+  border-radius:5px;
+  text-align:left;
+  color: white;
+  box-sizing: border-box;
+  transition: 0.3s;
+  background: none;
+
+}
+#Username:hover {
+  
+ border-color: dodgerblue;
+ box-shadow: 0 0 8px 0 dodgerblue;
+}
+
+#Password:hover {
+  
+ border-color: dodgerblue;
+ box-shadow: 0 0 8px 0 dodgerblue;
+}
+
+#Username:focus {
+ box-shadow: 0 0 8px 0 dodgerblue;
+}
+
+#Password:focus {
+ box-shadow: 0 0 8px 0 dodgerblue;
+}
+
+
+
+#button {
+  position: relative;
+  top:55px;
+  left: -60px;
+  width:100px;
+  height:40px;
+  padding: 0px;
+  background: dodgerblue;
+  border: none;
+  opacity: 80%;
+ 
+}
+#button:hover {
+  border-color: dodgerblue;
+  box-shadow: 0 0 8px 0 dodgerblue;
+}
+
+#ForgotPassword{
+  position: relative;
+  top: -30px;
+  left: 105px;
+  width: 5px;
+
+}
+
+#Registration {
+  display: inline-block;
+  position: relative;
+  top:15px;
+  left: 0px;
+  width:100px;
+  height:40px;
+  border: none;
+  text-decoration: none;
+  text-align: center;
+  padding: 10px;
+  background: rgb(201, 196, 196);
+  color: rgb(2, 40, 78);
+  opacity: 80%;
+ 
+}
+#Registration:hover {
+  border-color: dodgerblue;
+ box-shadow: 0 0 8px 0 dodgerblue;
+}
+

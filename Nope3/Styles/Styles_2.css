@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: none;
+}
+html{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+body {
+   
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     width: 500px;
+     height: 600px;
+     background-color: darkblue;
+  }
+#Form{
+    width: 300px;
+    height: 500px;
+    box-sizing: border-box;
+    box-shadow: 0 0 12px 0 gray;
+    border-radius: 5px;
+    background: rgba(199, 27, 27, 0.5);
+  
+}
+.Register{
+    position: relative;
+
+}
+.Registration{
+    position: relative;
+    top: 150px;
+    height: 220px;
+}
+
+.tag{
+    position: relative;
+    top: 0px;
+    left: 55px;
+    }
+     
+    .tag_1{
+        position: relative;
+        top: 50px;
+        left: 55px;
+    }
+    .tag_2{
+        position: relative;
+        top: 100px;
+        left: 55px;
+    }
+    .tag_3{
+        position: relative;
+        top:150px;
+        left: 55px;
+    }
+    .tag_4{
+        position: relative;
+        top: 200px;
+        left: 55px;
+    }
+    .tag_5{
+        position: relative;
+        top: 250px;
+        left: 55px;
+    }
+    
+.Input{
+    position: absolute;
+    left:0px;
+    width: 57%;
+    padding:5px;
+    border: none;
+    border-radius: 2px;
+
+
+} 
+
+.submit{
+    position: relative;
+    width: 87px;
+    height: 32px;
+    border: none;
+    border-radius: 3px;
+    padding: 7px;
+    background: lightslategrey;
+  
+}
+.Login{
+    display: inline-block;
+    position: relative;
+    top: 180px;
+    left:149px;
+    width: 87px;
+    box-sizing: border-box;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 3px;
+    padding: 7px;
+    background: white;
+    color: #aaa;
+
+} 
+.submit:hover{
+    background: lightseagreen;   
+}
+.Login:hover{
+    background: lightseagreen;  
+}

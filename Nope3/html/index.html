@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+<title >
+Welcome !
+</title>
+ <link rel = "stylesheet" href = "Styles.css">
+
+ <script>
+   function ChangeUser(){
+    var User = document.getElementById("Username").value;
+    var path = `/Control/${User}?LogIn=true`;
+    document.getElementById("Login").action = path;
+    document.getElementById("button").submit();
+    
+  }
+ </script>
+ </head>
+<body>
+
+<div id= "Mydiv">
+<div id = "Welcome">
+   <h1 style="color:red;text-align:left;">Welcome</h1>
+   <h2 style="color:rgb(250, 244, 244);text-align:left;position: relative; top: 50px; right:50px; text-align: right;">Login</h2>
+
+ </div>
+<div id = "Login-div">  
+   
+   <form id="Login" method = "post" action="/Control?LogIn=true"><br>
+   <input type="text" id="Username" name="Username" placeholder="Username" autocomplete="off" required><br><br><br>
+   <input type="Password" id="Password" name="Password" placeholder="Password" required>
+   <input id="button" type="submit" value = "submit">
+   <!-- <p id="LoginStatus"></p> -->
+  </form>
+  <a id="ForgotPassword" href="Control" style="color: #e9dddd;" >Forgot Password</a>
+
+   <a id="Registration" href="registration.html">Sign Up</a>
+ </div>
+</div>
+
+
+</body>
+</html>

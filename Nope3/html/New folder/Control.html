@@ -1,0 +1,45 @@
+
+<html>
+<head>
+
+    <title>Hello Probir</title>
+    <link rel="stylesheet" href="Styles_1.css">
+    <script rel="Javascript" src="WebSCK.js"></script>
+</head>
+
+<body onload = "LogInStatus()">
+    <div class="top">
+        <h1 align="center">Wellcome to Home Automation</h1>
+        <div id="Status"></div>
+        <button id="Home" onclick="Logout()">Home</button>
+        <button id="Connecttoserver" type="button" onclick="Connecttoserver()">Connect</button><br><br>
+        <button id="Disconnectserver" type="button" onclick="Disconnectserver()">Disconnect</button>
+
+    </div>
+
+<div class="left">
+   <h1 align="center">Hello<span id="demo"></span></h1>
+<div class="Lights"> 
+     
+   <img id="Lbedroom" onclick="changeStatusLight(Lbedroom)" src="ledoff.jpg" width="70" height="70">
+   <img id="Ldrawingroom" onclick="changeStatusLight(Ldrawingroom)" src="ledoff.jpg" width="70" height="70">
+   <img id="Lbathroom" onclick="changeStatusLight(Lbathroom)" src="ledoff.jpg" width="70" height="70"><br><br>
+   <img id="Lcorridor" onclick="changeStatusLight(Lcorridor)" src="ledoff.jpg" width="70" height="70"><br><br>
+   <img id="Lstoreroom" onclick="changeStatusLight(Lstoreroom)" src="ledoff.jpg" width="70" height="70"><br><br>
+   <img id="Lbalcony" onclick="changeStatusLight(Lbalcony)" src="ledoff.jpg" width="70" height="70"><br><br>
+</div>
+<div class="Fans">
+   <img id="Fdrawingroom" onclick="changeStatusFan(Fdrawingroom)" src="fan-off.png" width="70" height="70"><br>
+</div>
+</div>
+
+<div class="right">
+   <h1 align="center">Water Management System</h1> 
+   <input type="button" onclick="DrawWaterTank()" value="Check WMS"><br>
+   <canvas id="WaterManagementSystem" height='435' style="border:none "></canvas>
+   
+</div>
+ 
+</body>
+
+</html>

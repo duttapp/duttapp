@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Node1 >
+  <Node>Node_1</Node>
+  <buttons category="Lights">
+    <metatag>#ikdscb@35bgtdgu5tgu7</metatag>
+    <ID>Light_1</ID>
+  </buttons>
+  
+  <buttons category="Fans">
+    <metatag>7dfsvh4787hjbjbdckkdcm</metatag>
+    <ID>Fan_1</ID>
+  </buttons>
+
+
+</Node1>

@@ -1,0 +1,46 @@
+
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Welcome</title>
+    <link rel="stylesheet" href="/Control/Styles_1.css">
+    
+</head>
+
+<body>
+  <div class="Doc">
+    <div class="top">
+        <div class="Welcome">
+        <h1 style="color:palevioletred;">Home Automation</h1>
+        <textbox id="Status" style="color:aliceblue;">Status</textbox>
+        </div>
+        <div class="Links">
+        <a id="Connect" onclick="Connect()">Connect<a>
+        <a id="Disconnect" onclick="Disconnect()">Disconnect</a>
+        <form id="Signoff" method = "POST">
+        <button id="Home" type="submit" onclick="LogOut()">Home</button>
+        </form>
+        </div>
+        
+    </div>
+    <div class="Central">
+    <div class="nav"><br>
+    
+      <a id="Node1" onclick="Node_1()">Node1</a>
+      <a id="Node2" onclick="Node_2()">Node2</a>
+      <a id="Node3" onclick="Node_3()">Node3</a>
+      <a id="Node4" onclick="Node_4()">Node4</a>
+      <a id="Node5" onclick="Node_5()">Node5</a>
+
+    </div>
+    <div id="Console">
+   
+    </div>
+    </div>
+    <div class="Footer">
+      <h4 style="color: white;">Desgined by Probir Dutta</h4>
+    </div>
+  </div>
+</body>
+<script src="/Control/Client.js"></script> 
+</html>

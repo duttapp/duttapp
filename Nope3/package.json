@@ -1,0 +1,31 @@
+{
+  "name": "node-js",
+  "version": "1.0.0",
+  "description": "HomeAuto",
+  "main": "index.js",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "body-parser": "^1.20.0",
+    "cookie-parser": "^1.4.6",
+    "dotenv": "^16.0.1",
+    "express-mysql-session": "^2.1.8",
+    "express-session": "^1.17.3",
+    "express-ws": "^5.0.2",
+    "json": "^11.0.0",
+    "passport": "^0.5.2",
+    "path": "^0.12.7",
+    "wss": "^3.3.4"
+  },
+  "devDependencies": {
+    "connect-mssql-v2": "^3.1.3",
+    "express": "^4.18.1",
+    "nodemon": "^2.0.19",
+    "sessions": "0.0.2-7"
+  },
+  "scripts": {
+    "START": "node index",
+    "dev": "nodemon index"
+  },
+  "author": "",
+  "license": "ISC"
+}

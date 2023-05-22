@@ -1,0 +1,92 @@
+
+*{
+	margin: 0px;
+	padding: 0px;
+	outline: none;
+}
+
+body {
+  
+  background-color: rgb(75, 21, 21);
+  }
+
+.top{
+	
+	position:relative;
+	left: 0px;
+	top: 0px;
+	height: 50px;
+	width: 100%;
+	background-color: rgb(34, 30, 30);
+    border-color: dodgerblue;
+
+}
+
+#Home{
+	background-color:#5DADE2;
+	border:none;
+	width: 80px;
+	height: 40px;
+	border-radius: 24px;
+	position: absolute;
+	left:90%;
+	top:5px;
+}
+#Home:hover {
+  background-color: white;
+}
+.nav{
+	position: absolute;
+	top: 50px;
+	overflow: auto;
+}
+
+.nav a{
+	position: relative;
+	width: 50px;
+	display: block;
+	background-color: rgb(55, 56, 121);
+	text-decoration: none;
+	text-align: center;
+	padding: 20px;
+	color: black;
+	transition: 0.5s;
+	border-radius: 0 5px 5px 0;
+
+}
+.nav a:hover {
+	background-color: rgb(13, 238, 69);
+	color: white;
+  }
+.nav a:hover {
+	width: 100px;
+  }
+/*.Lights{
+	position: absolute;
+	margin: 10px;
+	border: 1px Solid black;
+	height: 95%;
+	width: 48%;
+
+}
+
+
+.Fans {
+	position: absolute;
+	margin: 10px;
+	left: 500px;
+	border: 1px Solid black;	
+	height: 95%;
+	width: 48%;
+}
+
+.WMS {
+	position: absolute;
+	margin: 10px;
+	left: 1010px;
+	border: 1px Solid black;	
+	height: 95%;
+	width: 30%;
+}
+
+*/

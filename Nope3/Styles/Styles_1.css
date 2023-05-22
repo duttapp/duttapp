@@ -1,0 +1,229 @@
+
+*{
+	margin: 0px;
+	padding: 0px;
+	outline: none;
+}
+
+body {
+      /* display: flex;
+	  flex-direction: column; */
+      background-color: rgb(32, 24, 83);
+
+  }
+  .Doc{
+	display: flex;
+	height: 100%;
+	width: 100%;
+	flex-direction: column;
+	flex-grow: 1;
+  }
+
+.top{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: flex-end;
+	background-color: rgba(12, 0, 0, 0.521);
+	box-shadow: 0 0 10px 0 darkgray;
+
+}
+.Welcome{
+    display: flex;
+	justify-self: flex-start; 
+	flex-direction: column;
+	margin-right: auto;
+	margin-left: 20px;
+	
+}
+.Links{
+	display: flex;
+	
+}
+
+.Central{
+    display: flex;
+	flex-grow: 1;
+	
+}
+#Console{
+    display: flex;
+	background-color: rgba(28, 60, 107,0.5);
+	justify-content: flex-start;
+	align-items: flex-start;
+	margin: 20px;
+	border-radius: 5px;
+	flex-grow: 1;
+}
+#Console label{
+    position:relative;
+	display: inline-block;
+	margin: 5px;
+	width: 60px;
+	height: 34px;
+	color:#ccc;
+	text-align: right;
+}
+#Console checkbox{
+   opacity: 0;
+   width: 0;
+   height: 0;
+}
+span {
+	position: absolute;
+	cursor: pointer;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: #ccc;
+	-webkit-transition: .4s;
+	transition: .4s;
+  }
+  
+  span:before {
+	position: absolute;
+	content: "";
+	height: 26px;
+	width: 26px;
+	left: 4px;
+	bottom: 4px;
+	background-color: white;
+	-webkit-transition: .4s;
+	transition: .4s;
+  }
+  
+  input:checked + span {
+	background-color: #2196F3;
+  }
+  
+  input:focus + span {
+	box-shadow: 0 0 1px #2196F3;
+  }
+  
+  input:checked + span:before {
+	-webkit-transform: translateX(26px);
+	-ms-transform: translateX(26px);
+	transform: translateX(26px);
+  }
+  
+
+.Footer{
+	display: flex;
+	background-color: rgb(26, 0, 0);
+
+}
+#Connect{
+
+  color:aliceblue; 
+  width: 80px;
+  height: inherit;
+  padding: 15px;
+  background: rgb(151, 151, 3);
+  cursor: pointer;
+  text-align: center;
+}
+#Connect:hover {
+	background-color: white;
+  }
+
+#Disconnect{
+
+	color:aliceblue; 
+	width: 80px;
+	height: inherit;
+	padding: 15px;
+	background: rgb(2, 83, 2);
+	cursor: pointer;
+	text-align: center;
+}
+#Disconnect:hover {
+	background-color: white;
+  }
+
+#Home{
+
+	width: 80px;
+    height: inherit;
+	padding: 15px;
+	cursor: pointer;
+	background:#5DADE2;
+	text-align: center;
+
+}
+#Home:hover {
+  background-color: white;
+  cursor: pointer;
+}
+.nav{
+    display: flex;
+	flex-direction: column;
+	width: 150px;
+	overflow: auto;
+}
+
+.nav a{
+	width: 50px;
+	background-color: rgb(55, 56, 121);
+	text-decoration: none;
+	text-align: center;
+	margin-top: 10xp;
+	margin-bottom: 10px;
+	padding: 20px;
+	color: black;
+	transition: 0.5s;
+	border-radius: 0 5px 5px 0;
+	cursor: pointer;
+
+}
+.nav a:hover {
+	background-color: rgb(13, 238, 69);
+	color: white;
+  }
+.nav a:hover {
+	width: 100px;
+  }
+
+#Messages{
+  padding: 60px;
+  border: 1px solid brown;
+  border-radius: 5px;
+  background: white;
+}
+
+/* #DevText{
+	align-self: center;
+	justify-self: flex-end;
+	padding: 60px;
+	border: 1px solid brown;
+	border-radius: 5px;
+	background: white;
+  } */
+/*.Lights{
+	position: absolute;
+	margin: 10px;
+	border: 1px Solid black;
+	height: 95%;
+	width: 48%;
+
+}
+
+
+.Fans {
+	position: absolute;
+	margin: 10px;
+	left: 500px;
+	border: 1px Solid black;	
+	height: 95%;
+	width: 48%;
+}
+
+.WMS {
+	position: absolute;
+	margin: 10px;
+	left: 1010px;
+	border: 1px Solid black;	
+	height: 95%;
+	width: 30%;
+}
+
+*/

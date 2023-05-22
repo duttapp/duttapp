@@ -1,0 +1,55 @@
+
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Welcome</title>
+    <link rel="stylesheet" href="/Control/Styles_1.css">
+    <script>
+      function LogOut(){
+       
+       const path = document.location.pathname;
+       document.getElementById("Socket").action =  path + "?LogOut=true";
+       document.getElementById("Socket").submit();
+
+
+      } 
+    </script>
+</head>
+
+<body>
+    <div class="top">
+        <h1 style="color: palevioletred; padding: 5px; padding-left: 50px;" align="Left">Home Automation</h1>
+        <form id="Socket" method="post">
+        <button id="Home" type="submit" value="submit" onclick="LogOut()">Home</button>
+        </form>
+        <!-- <div id="Status"></div> -->
+           <!-- <form id="Socket" type="form" method = "post">
+             
+             <button id="Connecttoserver" value="ConnectToServer" >Connect</button><br><br>
+             <button id="Disconnectserver" value="Disconnectserver" >Disconnect</button>
+          </form> -->
+
+        </div>
+
+<!-- <div class="left">
+   
+<div class="Lights"> 
+     
+   <img id="Lbedroom" src="ledoff.jpg" width="70" height="70">
+   <img id="Ldrawingroom" src="ledoff.jpg" width="70" height="70">
+   <img id="Lbathroom" src="ledoff.jpg" width="70" height="70"><br><br>
+   <img id="Lcorridor" src="ledoff.jpg" width="70" height="70"><br><br>
+   <img id="Lstoreroom" src="ledoff.jpg" width="70" height="70"><br><br>
+   <img id="Lbalcony" src="ledoff.jpg" width="70" height="70"><br><br>
+</div>
+<div class="Fans">
+   <img id="Fdrawingroom" src="fan-off.png" width="70" height="70"><br>
+</div> -->
+
+</div>
+
+
+ 
+</body>
+
+</html>

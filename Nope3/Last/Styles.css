@@ -1,0 +1,51 @@
+
+
+ body {
+
+     background-image: url(https://www.google.com/search?q=nature+pictures+of+afternoon&tbm=isch&ved=2ahUKEwiSvK7R24v5AhWxhNgFHVdjBSgQ2-cCegQIABAA&oq=nature+pictures+of+afternoon&gs_lcp=CgNpbWcQDDoHCAAQsQMQQzoECAAQQzoFCAAQgAQ6CAgAELEDEIMBOgQIABADOggIABCABBCxAzoLCAAQgAQQsQMQgwE6BggAEB4QCFD-DFi7YWD6hQFoAHAAeACAAZ0CiAHlH5IBBjAuNi4xM5gBAKABAaoBC2d3cy13aXotaW1nwAEB&sclient=img&ei=Ki_aYpL_A7GJ4t4P18aVwAI&bih=601&biw=1358&rlz=1C1EJFC_enIN865IN867#imgrc=VDU7b0Osi-qmHM);
+     backgroung-repeat:  false;
+  }
+  #Mydiv {
+  position: absolute;
+  top: 50px;
+  left: 300px;
+  width: 300px;
+  height: 500px;
+  text-align: center;
+  background-color: rgba(55, 0, 0, 0.2);
+  box-shadow: 10px 10px #888888;
+  outline:3px solid #6E2C00 ;
+
+  
+  }
+ #button {
+  background-color: #4CAF50;
+  border-color: transparent;
+  position:relative;
+  top:200px;
+  width:150px;
+  height:50px;
+  border-radius: 24px;
+ 
+}
+
+#button:hover {
+  background-color: white;
+}
+
+#button:hover {
+  background-color: white;
+}
+
+#Username {
+	border: none;
+	border-radius:12px;
+}
+
+#Password {
+	border: none;
+	border-radius:12px;
+}
+
+ 
+ 
